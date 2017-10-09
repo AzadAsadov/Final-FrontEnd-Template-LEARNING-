@@ -1,0 +1,80 @@
+#topnav {
+  width: 100%;
+  background-color: #242424;
+  height: 60px;
+}
+#topnav .leftside ul {
+  list-style-type: none;
+}
+#topnav .leftside li {
+  padding: 10px;
+  display: inline-block;
+}
+#topnav .leftside i {
+  padding: 5px;
+  font-size: 25px;
+  color: #F9AD40;
+}
+#topnav .leftside a {
+  margin-left: 10px;
+  font-size: 15px;
+  color: #959595;
+}
+#topnav .rightside ul {
+  margin-left: 120px;
+  list-style-type: none;
+}
+#topnav .rightside li {
+  display: inline-block;
+  padding: 15px;
+  color: #959595;
+  font-size: 25px;
+  transition: all .5s ease;
+}
+#topnav .rightside li.facebook:first-child:hover {
+  color: #3A589E;
+}
+#topnav .rightside li.twitter:first-child:hover {
+  color: #429CD6;
+}
+#topnav .rightside li.google:first-child:hover {
+  color: red;
+}
+#topnav .rightside li.instagram:first-child:hover {
+  color: #AE3D9D;
+}
+#topnav .rightside li.rss:first-child:hover {
+  color: orange;
+}
+
+#nav {
+  width: 100%;
+  background-color: red;
+  height: 120px;
+}
+#nav .logoside {
+  padding: 20px;
+}
+#nav .navside ul {
+  padding: 25px;
+}
+#nav .navside ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+#nav .navside ul li a {
+  color: black;
+  padding: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+#nav .navside li a span {
+  transition: all .3s ease;
+}
+#nav .navside li a span:hover {
+  color: orange;
+}
+
+.active {
+  color: orange;
+}
